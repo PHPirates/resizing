@@ -1,0 +1,23 @@
+#buttonUp {
+     -fx-graphic: url('resources/up_small.png');
+     -fx-focus-color: transparent;
+     -fx-faint-focus-color: transparent;
+     -fx-effect: null;
+     -fx-background-color: transparent;
+ }
+
+#buttonUp:pressed  {
+    -fx-graphic: url("resources/up_pressed_small.png");
+}
+
+#buttonDown {
+    -fx-graphic: url('resources/down_small.png');
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-effect: null;
+    -fx-background-color: transparent;
+}
+
+#buttonDown:pressed  {
+    -fx-graphic: url("resources/down_pressed_small.png");
+}
